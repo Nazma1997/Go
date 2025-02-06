@@ -14,6 +14,16 @@ func main(){
 	// Array declaration  type 3
 	arrayType3 := [4]int{1,2,3,4}
 	fmt.Println( arrayType3)
-	
+
+	// access array element
+	accessArrayElement := [...]int{1,2,3,4,5}
+	fmt.Println(accessArrayElement[1])
+
+
+	// change array element
+
+	changeArrayElement := [...]int{1,2,3,4,5}
+	changeArrayElement[1] = 20
+    fmt.Println(changeArrayElement)
 }
 
