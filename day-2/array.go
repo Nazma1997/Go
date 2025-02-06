@@ -31,5 +31,10 @@ func main(){
 	specificArrayElement := [...]int{2: 10, 3: 20}
 	fmt.Println(specificArrayElement)
 
+
+	// find the length of the array
+	arrayLength := [...]int{1,2,3,4,5}
+	fmt.Println(len(arrayLength))
+
 }
 
