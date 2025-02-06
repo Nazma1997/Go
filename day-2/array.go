@@ -25,5 +25,11 @@ func main(){
 	changeArrayElement := [...]int{1,2,3,4,5}
 	changeArrayElement[1] = 20
     fmt.Println(changeArrayElement)
+
+
+	//Specific array element
+	specificArrayElement := [...]int{2: 10, 3: 20}
+	fmt.Println(specificArrayElement)
+
 }
 
